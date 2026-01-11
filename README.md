@@ -110,7 +110,7 @@ Abdomen CT-CT dataset
 
 SR-Reg dataset
 
-<img src="./Figures/fig05.png" alt="result" style="zoom:40%;" />
+<img src="./Figures/fig05.png" alt="result" width="40%" />
 
 ## P-Value Analysis
 
@@ -204,4 +204,5 @@ Label: 16 anatomical labels
 
 
 We sincerely acknowledge the [TransMatch](https://github.com/tzayuan/TransMatch_TMI), [CGNet](https://github.com/scu1996cy/CGNet) and [SACBNet](https://github.com/x-xc/SACB_Net) projects.
+
 
