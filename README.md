@@ -110,7 +110,13 @@ Abdomen CT-CT dataset
 
 SR-Reg dataset
 
-![result](./Figures/fig05.png)
+<img src="./Figures/fig05.png" alt="result" style="zoom:60%;" />
+
+## P-Value Analysis
+
+![P-Value](./Figures/fig17.png)
+
+![P-Value](./Figures/fig18.png)
 
 # 🗳 Data Description
 
