@@ -1,5 +1,5 @@
-# PLCReg: Correlation-Aware Polar-Linear Attention for Guiding Medical Image Registration
-This is the official pytorch implementation of the paper 'PLCReg: Correlation-Aware Polar-Linear Attention for Guiding Medical Image Registration'.
+# Efficient Multi-Task Medical Image Registration via Perceiving Polarity Correlation
+This is the official pytorch implementation of the paper 'Efficient Multi-Task Medical Image Registration via Perceiving Polarity Correlation'.
 
 The paper is currently under review, and more details will be disclosed once it is accepted.
 
@@ -164,6 +164,78 @@ Label: 16 anatomical labels
 
 
 
+**The directory structure of the dataset is as follows:**
+
+```
+Datasets
+├── OASIS
+│   ├── fixed.nii.gz
+│   ├── Train
+│   │   ├── OASIS_0001_0000.nii.gz
+│   │   ├── OASIS_0002_0000.nii.gz
+│   │   ├── ...
+│   ├── Test
+│   │   ├── OASIS_0396_0000.nii.gz
+│   │   ├── OASIS_0397_0000.nii.gz
+│   │   ├── ...
+│   ├── label
+│   │   ├── OASIS_0001_0000.nii.gz
+│   │   ├── OASIS_0002_0000.nii.gz
+│   │   ├── ...
+├── LPBA40_delineation
+│   ├── delineation_l_norm
+│   │   ├── fixed.nii.gz
+│   │   ├── train
+│   │   │   ├── S11.delineation.skullstripped.nii.gz
+│   │   │   ├── S12.delineation.skullstripped.nii.gz
+│   │   │   ├── ...
+│   │   ├── test
+│   │   │   ├── S02.delineation.skullstripped.nii.gz
+│   │   │   ├── S03.delineation.skullstripped.nii.gz
+│   │   │   ├── ...
+├── IXI_data
+│   ├── atlas.pkl
+│   ├── Train
+│   │   ├── subject_0.pkl
+│   │   ├── subject_4.pkl
+│   │   ├── ...
+│   ├── Test
+│   │   ├── subject_1.pkl
+│   │   ├── subject_3.pkl
+│   │   ├── ...
+│   ├── Val
+│   │   ├── subject_2.pkl
+│   │   ├── subject_5.pkl
+│   │   ├── ...
+├── AbdomenCTCT
+│   ├── imagesTr
+│   │   ├── AbdomenCTCT_0001_0000.nii.gz
+│   │   ├── AbdomenCTCT_0002_0000.nii.gz
+│   │   ├── ...
+│   ├── imagesTs
+│   │   ├── AbdomenCTCT_0021_0000.nii.gz
+│   │   ├── AbdomenCTCT_0022_0000.nii.gz
+│   │   ├── ...
+│   ├── labelsTr
+│   │   ├── AbdomenCTCT_0001_0000.nii.gz
+│   │   ├── AbdomenCTCT_0002_0000.nii.gz
+│   │   ├── ...
+├── SR-REG
+│   ├── seg
+│   │   ├── 1BA001.nii.gz
+│   │   ├── 1BA005.nii.gz
+│   │   ├── ...
+│   ├── vol
+│   │   ├── 1BA001_ct.nii.gz
+│   │   ├── 1BA001_mr.nii.gz
+│   │   ├── 1BA005_ct.nii.gz
+│   │   ├── 1BA005_mr.nii.gz
+│   │   ├── ...
+
+```
+
+
+
 # 📊 Visualization（&Supplement）
 
 
@@ -202,7 +274,4 @@ Label: 16 anatomical labels
 
 # 🔑 Acknowledgements
 
-
 We sincerely acknowledge the [TransMatch](https://github.com/tzayuan/TransMatch_TMI), [CGNet](https://github.com/scu1996cy/CGNet) and [SACBNet](https://github.com/x-xc/SACB_Net) projects.
-
-
