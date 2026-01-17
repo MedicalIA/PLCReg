@@ -207,7 +207,7 @@ Datasets
 │   │   ├── subject_2.pkl
 │   │   ├── subject_5.pkl
 │   │   ├── ...
-├── AbdomenCTCT
+├── AbdomenCT-CT
 │   ├── imagesTr
 │   │   ├── AbdomenCTCT_0001_0000.nii.gz
 │   │   ├── AbdomenCTCT_0002_0000.nii.gz
@@ -273,5 +273,6 @@ Datasets
 ![supp](./Figures/fig16.png)
 
 # 🔑 Acknowledgements
+
 
 We sincerely acknowledge the [TransMatch](https://github.com/tzayuan/TransMatch_TMI), [CGNet](https://github.com/scu1996cy/CGNet) and [SACBNet](https://github.com/x-xc/SACB_Net) projects.
