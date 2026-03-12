@@ -1,5 +1,5 @@
-# Efficient Multi-Task Medical Image Registration via Perceiving Polarity Correlation
-This is the official pytorch implementation of the paper 'Efficient Multi-Task Medical Image Registration via Perceiving Polarity Correlation'.
+# Multi-Domain Medical Image Registration Using Adaptive Polar-Linear Correlation Aware
+This is the official pytorch implementation of the paper 'Multi-Domain Medical Image Registration Using Adaptive Polar-Linear Correlation Aware'.
 
 The paper is currently under review, and more details will be disclosed once it is accepted.
 
@@ -276,3 +276,4 @@ Datasets
 
 
 We sincerely acknowledge the [TransMatch](https://github.com/tzayuan/TransMatch_TMI), [CGNet](https://github.com/scu1996cy/CGNet) and [SACBNet](https://github.com/x-xc/SACB_Net) projects.
+
