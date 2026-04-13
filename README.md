@@ -1,5 +1,5 @@
-# Multi-Domain Medical Image Registration Using Adaptive Polar-Linear Correlation Aware
-This is the official pytorch implementation of the paper 'Multi-Domain Medical Image Registration Using Adaptive Polar-Linear Correlation Aware'.
+# Learning Deformable Medical Image Registration with Adaptive Polar-Linear Correlation Aware
+This is the official pytorch implementation of the paper 'Learning Deformable Medical Image Registration with Adaptive Polar-Linear Correlation Aware'.
 
 The paper is currently under review, and more details will be disclosed once it is accepted.
 
